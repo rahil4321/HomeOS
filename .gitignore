@@ -1,0 +1,54 @@
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.venv-*/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+dist/
+.next/
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments and generated files
+.venv/
+.venv-*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node dependencies and builds
+node_modules/
+dist/
+.next/
+
+# OS files and logs
+.DS_Store
+*.log
